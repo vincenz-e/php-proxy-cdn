@@ -1,6 +1,6 @@
 <?php
 if(!isset($_GET['src'])) {
-  http_response_code(400)
+  http_response_code(400);
   exit('Invalid request, please include src link as GET parameter');
 }
 
